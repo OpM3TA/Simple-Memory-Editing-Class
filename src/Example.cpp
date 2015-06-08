@@ -35,7 +35,8 @@ int main(int argc, _TCHAR* argv[])
 	Memory *roblox = new Memory();
 	roblox->GetProcessFromWindow(title);
 	// Later on perhaps do what I did before. if no value is supplied auto-Nop the address
-	roblox->Write(addresses.Health, NOP); 
+	// roblox->Write(addresses.Health, NOP); 
+	roblox->Write(addresses.Health, 150); 
 
 	
 	cout << menu;
