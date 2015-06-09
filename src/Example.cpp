@@ -24,7 +24,7 @@ struct addr_switches {
 	int Health = 0x00248C58;
 } addresses;
 
-
+// addresses could be used like : obj->Write((LPCVOID)addresses.Health, 99999);
 
 
 
